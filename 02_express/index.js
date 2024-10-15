@@ -1,6 +1,6 @@
 import express from "express";
 import "dotenv/config";
-import logger from "../logger.js";
+import logger from "./logger.js";
 import morgan from "morgan";
 
 const app = express();
